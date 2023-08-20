@@ -78,3 +78,5 @@ if btn:
         user_input = np.array([[age,experience]])
         predict_income = loaded_model.predict(user_input)
         st.write(f"Income prediction based your input:     $","%.4f" % predict_income[0])
+
+st.write("Developed by Group 8 at 11:00pm on Sunday night :'(")
